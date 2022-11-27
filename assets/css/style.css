@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+table {
+    width: 650px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    background-color: brown;
+}
+
+
+tr,td,th {
+
+    padding:8px;
+    border: 1px solid black;
+}
+
+thead {
+    background-color:rgb(90, 85, 85);
+    color: white;
+}
+
+.media {
+    background-color:rgb(90, 85, 85);
+    text-align: left;
+    color: white;
+}
+
+.valor-media {
+    background-color:rgb(90, 85, 85);
+    font-weight: bold;
+    color: white;
+}
+
+#container {
+    overflow-x:auto;
+   
+}
